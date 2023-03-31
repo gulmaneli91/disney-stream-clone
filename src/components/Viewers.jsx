@@ -52,6 +52,7 @@ const Container = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+
   }
 `;
 
@@ -90,7 +91,7 @@ const Wrap = styled.div`
     padding: 0;
     border: 4px solid rgba(249, 259, 249, 0.8);
     transition-duration: 300ms;
-    scale: 1.05;
+    transform: scale(1.05);
     video {
         opacity:1;
     }
